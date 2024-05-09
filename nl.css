@@ -1,0 +1,48 @@
+body{
+  margin: 80px 0;
+  background: #2e2e2e;
+}
+
+
+section{
+  width: 95vw;
+  margin: 0 auto;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 0 0 0;
+  padding: 20px 0 0 0;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+ul li{
+  list-style: none;
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+}
+
+ul li.active:after{
+  content: "※";
+  display: block;
+  font-size: 20px;
+  margin: 8px auto 0;
+  padding: 0;
+  background: #2e2e2e;
+  width: 40px;
+}
+
+hr.menu{
+  margin: -16px 0 0 0;
+  padding: 0;
+  opacity: 0.2;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
